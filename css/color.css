@@ -1,0 +1,699 @@
+/*_______________________________________________________
+// BASIC STYLE  //----------------------------
+_______________________________________________________*/
+
+/*---------- General Style ------------*/
+
+body,
+html {
+    color: #fff;
+    background: 	radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(81, 255, 40, 0.2) 0%, rgba(13, 34, 8, 0) 100%);
+    /* linear-gradient(59deg, rgba(0,75,106,1) 0%, rgba(187,210,220,1) 84%);; */
+}
+
+a,
+a:focus {
+    color: #fff;
+}
+
+a:hover {
+    color: #509624;
+}
+
+a.active {
+    color: #509624;
+}
+
+.btn {
+    color: #fff;
+    background: #509624;
+    border: 1px solid #509624;
+    border-color: #509624;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.btn:before {
+    background: -webkit-radial-gradient(center, ellipse, rgba(39, 3, 106, 0.5) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(39, 3, 106, 0.5) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+.owl-dot {
+    background: #fff !important;
+}
+
+.owl-dot.active {
+    background: #509624 !important;
+}
+
+#preloader {
+    background: url(../images/loader.svg) center no-repeat #bcced8;
+}
+
+.form-control,
+.form-control:focus {
+    background: #5d19db;
+    color: #fff;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #8d56f3;
+}
+
+.form-control::-moz-placeholder {
+    color: #8d56f3;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #8d56f3;
+}
+
+.form-control:-moz-placeholder {
+    color: #8d56f3;
+}
+
+.heading-title-2 span,
+.sub-heading {
+    color: #000000;
+}
+
+.sub-page-banner {
+    background-color: #410ca3;
+}
+
+.skyblue {
+    background-color:	#000000;
+    background: 
+    /* linear-gradient(59deg, rgba(0,75,106,1) 0%, rgba(187,210,220,1) 84%);; */
+    radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(81, 255, 40, 0.2) 0%, rgba(13, 34, 8, 0) 100%);
+}
+
+.darkblue {
+    /* background-color: #bcced8; */
+    background:
+     radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(81, 255, 40, 0.2) 0%, rgba(13, 34, 8, 0) 100%);
+}
+
+.top-scroll {
+    background: #4f8825;
+    color: #fff;
+}
+
+.top-scroll:hover {
+    opacity: 0.6;
+}
+
+.top-scroll a {
+    color: #fff;
+}
+
+/*----- Menu -----*/
+
+.menu ul li a:before {
+    background: rgb(13,39,175); background: linear-gradient(146deg, rgba(90,67,199,1) 18%, rgba(51,223,163,1) 100%);;
+}
+
+header.fixed {
+    background: rgb(13,39,175); background: linear-gradient(146deg, rgba(90,67,199,1) 18%, rgba(51,223,163,1) 100%);;
+}
+
+.opener:before,
+.opener:after {
+    background: #000000;
+}
+
+.menu-toggle span,
+.menu-toggle span:before,
+.menu-toggle span:after {
+    background: #ffffff;
+}
+
+header.fixed .menu-toggle span,
+header.fixed .menu-toggle span:before,
+header.fixed .menu-toggle span:after {
+    background: #ffffff;
+}
+
+.menu-toggle.active span {
+    background: transparent;
+}
+
+/*----- Home Banner -----*/
+
+.home-banner {
+    
+    background: rgb(13,39,175); background: linear-gradient(146deg, rgba(90,67,199,1) 18%, rgba(51,223,163,1) 100%);;
+    
+}
+
+/*----- Work Section -----*/
+
+ul.check-list li span {
+    background: #fff;
+    color: #bcced8;
+}
+
+/*----- Feature Section -----*/
+
+.feature-title:hover {
+    color: #509624;
+}
+
+.feature-box:hover path.hover {
+    fill: #509624;
+}
+
+/*----- Timeline Section -----*/
+
+.h-border,
+.v-row {
+    border-color: #1e2f38;
+}
+
+.small-round {
+    border-color: #fff;
+}
+
+.v-row:before,
+.small-round span {
+    background: #CB9D5C;
+}
+
+/*----- Team Section -----*/
+
+.team-img {
+    border-color: #7d3cf4;
+}
+
+.team-box:hover .team-img {
+    border-color: #509624;
+}
+
+/*----- Token Sale Section -----*/
+
+.token-graphic-detail ul li:before {
+    background: #f85d77;
+}
+
+.token-graphic-detail ul li.color-code-2:before {
+    background: #5ad6f8;
+}
+.token-graphic-detail ul li.color-code-6:before {
+    background: #ffffff;
+}
+
+.token-graphic-detail ul li.color-code-3:before {
+    background: #f8c04e;
+}
+.token-graphic-detail ul li.color-code-7:before {
+    background: #4ef862;
+}
+
+.token-graphic-detail ul li.color-code-4:before {
+    background: #ac56f7;
+}
+
+.token-graphic-detail ul li.color-code-5:before {
+    background: #eb6ee9;
+}
+
+.donut {
+    color: #3d1f94;
+}
+
+/*----- Blog Section -----*/
+
+.blog-date li:before {
+    background: #fff;
+}
+
+.read-more {
+    color: #509624;
+}
+
+.read-more:hover {
+    color: #fff;
+}
+
+.blog-img a:before {
+    background: rgb(73 15 180 / 0.5);
+}
+
+/*----- FAQ Section -----*/
+
+.Frequently-tabs li a {
+    color: #7a41e2;
+}
+
+.Frequently-tabs li a.active {
+    color: #fff;
+}
+
+.Frequently-tabs li a:before {
+    background: #509624;
+}
+
+.qus-des {
+    color: #bcced8;
+}
+
+/*----- Home Page Tow -----*/
+
+.banner-heading-tow span {
+    color: #509624;
+}
+
+.coin-counter {
+    background: #5d19db;
+}
+
+.coin-head {
+    color: #509624;
+}
+
+.coins-counter-loop li:before,
+.coins-counter-loop li:after {
+    background: #fff;
+}
+
+.coins-counter-loop li span {
+    background: #480eb4;
+    color: #fff;
+}
+
+.coins-progress {
+    background: #004b6a;
+}
+
+.coins-progress span {
+    background-color: #d94afd;
+}
+
+/*----- Feature tow -----*/
+
+.feature-box-2 .frontend,
+.feature-box-2 .backend {
+    background: #5d19db;
+}
+
+.feature-des {
+    color: #dadada;
+}
+
+/*----- Roadmap Section -----*/
+
+.roadmap-part .v-row,
+.roadmap-part .h-border,
+.roadmap-des {
+    border-color: #509624;
+}
+
+.roadmap-part .small-round {
+    background: #bcced8;
+}
+
+/*----- team Tow Section -----*/
+
+.team-box-2 {
+    background: #fff;
+}
+
+.team-member-name a {
+    color: #509624;
+}
+
+.team-member-name a:hover {
+    color: #004b6a;
+}
+
+.team-member-img {
+    background-color: #004b6a;
+}
+
+.team-member-img:after {
+    background-color: rgba(255, 255, 255, .4);
+}
+
+/*----- Blog Tow Section -----*/
+
+.blog-part-2 .read-more:hover {
+    color: #fff;
+}
+
+/*----- FAQ tow Section -----*/
+
+.faq-part-2 .Frequently-tabs li a,
+.faq-part-2 .faq-tab,
+.accordion-faq-title {
+    color: #fff;
+    background: #5d19db;
+}
+
+.faq-part-2 .Frequently-tabs li a.active {
+    background: #509624;
+}
+
+.faq-part-2 .qus-des {
+    color: #fff;
+}
+
+.accordion-faq-title.active,
+.accordion-faq-title:hover {
+    color: #fff;
+}
+
+.accordion-faq-content {
+    background: #5d19db;
+}
+
+.accordion-faq-title:before,
+.accordion-faq-title:after {
+    background: #fff;
+}
+
+/*----- About Page -----*/
+
+.sub-page-banner ul li:before {
+    background: #fff;
+}
+
+.play-icon span {
+    border-color: #bcced8;
+    background: #fff;
+    color: #bcced8;
+}
+
+.play-icon:hover span {
+    border-color: #fff;
+    background: #509624;
+    color: #fff;
+}
+
+.work-part button.close {
+    color: #fff;
+}
+
+button.close {
+    color: #fff;
+}
+
+/*----- blog List Page -----*/
+
+.blog-search input {
+    border-color: #509624;
+    color: #fff;
+}
+
+.blog-search-btn {
+    background: #509624;
+    color: #fff;
+}
+
+.blog-search input::-webkit-input-placeholder {
+    color: #8d56f3;
+}
+
+.blog-search input::-moz-placeholder {
+    color: #8d56f3;
+}
+
+.blog-search input:-ms-input-placeholder {
+    color: #8d56f3;
+}
+
+.blog-search input:-moz-placeholder {
+    color: #8d56f3;
+}
+
+.blog-search-btn:hover {
+    background: #5d19db;
+}
+
+.blog-category {
+    background: #5d19db;
+}
+
+.blog-category ul li:before {
+    background: #509624;
+}
+
+.trending-news-date {
+    color: #509624;
+}
+
+.blog-tags ul li a {
+    background: #5d19db;
+    color: #509624;
+}
+
+.blog-tags ul li a:hover {
+    background: #509624;
+    color: #fff;
+}
+
+.archives ul li {
+    border-color: #5d19db;
+}
+
+.blog-list-content ul li:before {
+    background: #fff;
+}
+
+.blog-list-pagination ul li a {
+    background: #5d19db;
+}
+
+.blog-list-pagination ul li a:hover,
+.blog-list-pagination ul li a.active {
+    color: #fff;
+    background: #509624;
+}
+
+/*----- blog Detail Page -----*/
+
+.blog-detail-content ul li:before {
+    background: #fff;
+}
+
+.blog-detail-content blockquote {
+    background: #5d19db;
+    border-color: #509624;
+}
+
+.blog-detail-tag ul li a,
+.blog-detail-social ul li a {
+    background: #5d19db;
+}
+
+.blog-detail-tag ul li a:hover {
+    background: #509624;
+    color: #fff;
+}
+
+.blog-detail-social ul li a:hover {
+    background: #509624;
+    color: #fff;
+}
+
+.blog-detail-tag-social,
+.blog-comment-post-singel {
+    border-color: #5d19db;
+}
+
+.comment-date {
+    color: #bebebe;
+}
+
+.comment-reply {
+    background: #509624;
+}
+
+.comment-reply:hover {
+    color: #fff;
+    background: #5d19db;
+}
+
+/*----- Roadmap Page -----*/
+
+.roadmap-center-line {
+    border-color: #509624;
+}
+
+.roadmap-center-line:before,
+.roadmap-center-line:after {
+    background: #fff;
+}
+
+.roadmap-animated {
+    background: #5d19db;
+}
+
+.roadmap-main-content:before {
+    border-color: #509624;
+}
+
+.roadmap-small-round {
+    border-color: #fff;
+    background: #004b6a;
+}
+
+.roadmap-small-round:before {
+    background: #509624;
+}
+
+.roadmap-main .roadmap-detail-box {
+    background: #5d19db;
+}
+
+.roadmap-main .roadmap-des {
+    color: #fff;
+    padding: 0;
+}
+
+/*----- Token Sale Page -----*/
+
+.information-token-head {
+    color: #509624;
+}
+
+.token-sale-counter {
+    background: #5d19db;
+}
+
+.token-sale-counter .coins-counter-loop li span {
+    background: transparent;
+}
+
+.token-sale-counter .coins-counter-loop li .coin-day {
+    color: #509624;
+}
+
+.token-sale-counter .coins-progress span {
+    background: rgb(218, 75, 253);
+    background: -moz-linear-gradient(left, rgba(218, 75, 253, 1) 0%, rgba(73, 15, 180, 1) 100%);
+    background: -webkit-linear-gradient(left, rgba(218, 75, 253, 1) 0%, rgba(73, 15, 180, 1) 100%);
+    background: linear-gradient(to right, rgba(218, 75, 253, 1) 0%, rgba(73, 15, 180, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#509624', endColorstr='#490fb4', GradientType=1);
+}
+
+.token-slide-info:before {
+    background: #490fb4;
+}
+
+.token-sale-counter .coins-progress {
+    background: #fff;
+}
+
+.distribution-title {
+    color: #509624;
+}
+
+/*----- Contact Page -----*/
+
+.contact-detail li i {
+    background: #5d19db;
+}
+
+/*----- Footer Section -----*/
+
+.footer-icon ul li a {
+    background: #5d19db;
+}
+
+.footer-icon ul li a:hover {
+    color: #fff;
+}
+
+.footer-icon ul li a:hover {
+    background: #509624;
+}
+
+.footer-link ul li a:hover {
+    color: #509624;
+}
+
+.subscribe .form-control {
+    background: #5d19db;
+    color: #fff;
+}
+
+.subscribe .submit {
+    color: #fff;
+    background: #509624;
+}
+
+.subscribe .form-control::-webkit-input-placeholder {
+    color: #8d56f3;
+}
+
+.subscribe .form-control::-moz-placeholder {
+    color: #8d56f3;
+}
+
+.subscribe .form-control:-ms-input-placeholder {
+    color: #8d56f3;
+}
+
+.subscribe .form-control:-moz-placeholder {
+    color: #509624;
+}
+
+.subscribe .submit:hover {
+    color: #509624;
+   background-color: #000000    ; background: linear-gradient(304deg, rgba(0,0,0,1) 63%, rgba(52,98,23,1) 100%);";
+}
+
+.copyright p a {
+    color: #509624;
+}
+
+.copyright p a:hover {
+    color: #fff;
+}
+
+.copyright ul li:before {
+    background: #5d19db;
+}
+
+.footer {
+    border-color: #5d19db;
+}
+
+@media(min-width: 992px) {
+    .menu ul li:hover a {
+        color: #509624;
+    }
+    .mega-menu:hover:before {
+        color: #509624;
+    }
+    .menu ul ul li a {
+        border-color: #491aa0 !important;
+        color: #fff !important;
+    }
+    .menu ul ul li.mega-menu:before {
+        color: #509624;
+    }
+    .menu ul ul li:hover>a {
+        color: #509624;
+    }
+    .menu ul ul {
+        background: rgb(13,39,175); background: linear-gradient(146deg, rgba(90,67,199,1) 18%, rgba(51,223,163,1) 100%);;    }
+    .menu ul ul li a:before {
+        background: #491aa0;
+    }
+}
+
+@media(max-width: 991px) {
+    .menu {
+       background-color: #000000    ; background:     linear-gradient(146deg, rgba(90,67,199,1) 18%, rgba(51,223,163,1) 100%);;
+       "
+    }
+    .signin .btn {
+        background: transparent;
+    }
+    header.fixed .menu-toggle.active span {
+        background: transparent;
+    }
+}
